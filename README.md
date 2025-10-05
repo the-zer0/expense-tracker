@@ -79,7 +79,7 @@ To get this project running locally and connect it to your own database, follow 
 Prerequisites
 You need a Supabase account to host your backend services.
 
-===================================================================================================================================================================
+============================================================================================
 
 1. Database Setup
 Create a Project: Set up a new project in your Supabase dashboard.
@@ -97,7 +97,7 @@ type	text	'income' or 'expense'
 category	text	The category (e.g., 'Food', 'Salary')
 note	text	Optional description
 
-===================================================================================================================================================================
+========================================================================================
 
 2. Configure Credentials
 Update the Supabase connection details in both auth.js and dashboard.js with your own project's URL and Key:
@@ -105,7 +105,7 @@ const supabaseUrl = 'YOUR_SUPABASE_URL'; // e.g., 'https://xxkjkrauwifjqvjazmis.
 const supabaseKey = 'YOUR_ANON_KEY';
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
-===================================================================================================================================================================
+============================================================================================
 
 3. Run Locally
 Open index.html in your web browser. You can now sign up and begin tracking expenses!
@@ -117,6 +117,12 @@ auth.js	-> Handles user authentication logic: signing up new users and signing i
 dashboard.html -> The main application interface containing the summary cards, the "Add Record" form, the filters, and the expense table.
 dashboard.js ->	The core application script. Manages data fetching, CRUD operations, local filtering, and updating the summary statistics.
 style.css ->	Defines all visual styles for the application, including the mobile-friendly layout and "neon" color scheme.
-type	text	'income' or 'expense'
-category	text	The category (e.g., 'Food', 'Salary')
-note	text	Optional description
+
+
+=============================================================================================
+
+SAMPLE LOGIN DETAILS:
+username: mano@admin.com
+password: Admin@123
+
+==============================================================================================
