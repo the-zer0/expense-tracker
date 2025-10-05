@@ -1,4 +1,5 @@
 💰 Expense Tracker Application
+
 This is a personal web application designed to help users easily track their income and expenses. It uses vanilla JavaScript, HTML, and CSS for a dynamic frontend, while leveraging Supabase as a powerful, cloud-based backend for both user authentication and data storage.
 
 ✨ Project Features
