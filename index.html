@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense Tracker | Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="center-page">
+    <div class="card auth-card">
+      <h1 class="neon-title">Expense Tracker</h1>
+
+      <div class="form-row">
+        <input id="email" type="email" placeholder="Email" required />
+      </div>
+      <div class="form-row">
+        <input id="password" type="password" placeholder="Password" required />
+      </div>
+
+      <div class="button-row">
+        <button id="signInBtn" class="btn neon">Sign In</button>
+      </div>
+
+      <p id="authMessage" class="muted"></p>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script src="auth.js"></script>
+</body>
+</html>
